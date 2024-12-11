@@ -2,6 +2,8 @@ import React from 'react'
 import Student from './Student'
  import photo from './saurabh.jpg'
 import StateHandling from './StateHandling'
+import ImageManipulation from './ImageManipution'
+
                                        //part of businees logic
 function App() {
    
@@ -32,6 +34,9 @@ function App() {
       <div>
         <h2 style={{color:'blue'}}>Hello React JS</h2>
              <div>
+             <div>
+              <ImageManipulation />
+             </div>
              {/* {
                {
                 studentdata.map((ele)=>{
@@ -46,9 +51,7 @@ function App() {
 
 
               {/* Here Start StateHandling */}
-              <div>
-                <StateHandling/>
-              </div>
+            
               
            
           <div>
