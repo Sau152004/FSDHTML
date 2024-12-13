@@ -1,8 +1,11 @@
 import React from 'react'
-import Student from './Student'
- import photo from './saurabh.jpg'
-import StateHandling from './StateHandling'
-import ImageManipulation from './ImageManipution'
+import UseEffectWork from './UseEffectWork'
+import Login from './login'
+import Registration from './Registration'
+// import Student from './Student'
+//  import photo from './saurabh.jpg'
+// import StateHandling from './StateHandling'
+// import ImageManipulation from './ImageManipulation'
 
                                        //part of businees logic
 function App() {
@@ -33,9 +36,20 @@ function App() {
     <div>
       <div>
         <h2 style={{color:'blue'}}>Hello React JS</h2>
+        <h2>Login Form</h2>
+        <Login/>
+        <br /><br />
+        <h2>Registration</h2>
+        <Registration/>
+
+        
+        <div>
+          {/* <UseEffectWork/> */}
+         
+        </div>
              <div>
              <div>
-              <ImageManipulation />
+              {/* <ImageManipulation /> */}
              </div>
              {/* {
                {
