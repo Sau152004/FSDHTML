@@ -1,0 +1,9 @@
+const express=require("express");
+const usercontroller=require("../userController");
+const router=express.Router();
+router.get("/users",usercontroller.getAllUsers);
+router.get("/user/:email",usercontroller.getEmail);
+router.post("/createuser",usercontroller.addUser);
+router.put("/updateuser/:id",usercontroller.editUser);
+router.delete("/deleteuser/:id",usercontroller.deleteUser);
+module.exports=router;
